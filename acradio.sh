@@ -197,7 +197,7 @@ rainStateUpdater() {
 
 volumeHandler() {
   cmd=""
-  player=""
+  player="music"
   case $1 in
     up)
       cmd="up"
@@ -226,7 +226,6 @@ volumeHandler() {
   esac
   shift 1
   
-  player="music"
   volume=0
 
   if [[ "$#" -gt 2 ]]; then
