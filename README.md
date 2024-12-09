@@ -1,4 +1,4 @@
-#ACRadio
+# ACRadio
 
 A bash script that lets you play music and rain ambience in the style of a
 certain well-known town management game. 
